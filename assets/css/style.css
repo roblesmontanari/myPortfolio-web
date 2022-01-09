@@ -1,0 +1,22 @@
+@import url("_base.css");
+@import url("_reset.css");
+
+/* fonts */
+
+@font-face {
+    font-family: 'Magnat';
+    src: local('Magnat Text Regular'), local('Magnat-Text-Regular'),
+        url('../font/Magnat-TextRegular.woff2') format('woff2'),
+        url('../font/Magnat-TextRegular.woff') format('woff'),
+        url('../font/Magnat-TextRegular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Migra Extralight';
+    src: local('Migra Extralight'), local('Migra-Extralight')
+        url('../font/Migra-Extralight.ttf');
+    font-weight: 100;    
+    font-style: normal;
+}
