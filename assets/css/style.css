@@ -23,27 +23,36 @@
 
 /* home */
 
+html {
+    background: var(--white);
+}
+
 body {
     overflow:hidden
 }
 
-header {
-    background: var(--white);
-}
-
 .containerMain {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.introduction {
+    text-align: center;
+    font-family: var(--migra);
+    font-size: 45px;
+}
+
+.robles {
+    font-family: var(--magnat);
 }
 
 .jobFunction {
+    text-align: center;
     font-family: var(--magnat);
     font-size: 96px;
 }
 
-.backgroundMain {
-    align-items: center;
-    display: flex;
-    justify-content: center;
+.and {
+    font-family: var(--migra);
 }
