@@ -31,12 +31,6 @@ body {
     overflow:hidden
 }
 
-.containerMain {
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
 .introduction {
     text-align: center;
     font-family: var(--migra);
@@ -55,4 +49,19 @@ body {
 
 .and {
     font-family: var(--migra);
+}
+
+.buttonMain {
+    background-color: var(--black);
+    border: none;
+    border-radius: 10px;
+    color: var(--white);
+    cursor: pointer;
+    display: inline-block;
+    font-family: var(--magnat);
+    font-size: 22px;
+    margin: 50px 25px;
+    padding: 11px 16px;
+    text-align: center;
+    text-decoration: none;
 }
