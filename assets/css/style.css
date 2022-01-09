@@ -20,3 +20,30 @@
     font-weight: 100;    
     font-style: normal;
 }
+
+/* home */
+
+body {
+    overflow:hidden
+}
+
+header {
+    background: var(--white);
+}
+
+.containerMain {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jobFunction {
+    font-family: var(--magnat);
+    font-size: 96px;
+}
+
+.backgroundMain {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
