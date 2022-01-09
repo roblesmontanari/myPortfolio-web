@@ -28,13 +28,28 @@ html {
 }
 
 body {
-    overflow:hidden
+    background-image: url("../img/Background-form.png");
+    background-color: var(--white);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: initial;
+    
+    width: auto;
+    height: 925px;
+    margin: auto;
 }
+
+.containerMain {
+    padding: 210px;
+}
+    
 
 .introduction {
     text-align: center;
     font-family: var(--migra);
     font-size: 45px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .robles {
@@ -45,13 +60,21 @@ body {
     text-align: center;
     font-family: var(--magnat);
     font-size: 96px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .and {
     font-family: var(--migra);
 }
 
-.buttonMain {
+.buttonGroup {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.buttonClass {
     background-color: var(--black);
     border: none;
     border-radius: 10px;
@@ -60,7 +83,7 @@ body {
     display: inline-block;
     font-family: var(--magnat);
     font-size: 22px;
-    margin: 50px 25px;
+    margin: 25px 25px;
     padding: 11px 16px;
     text-align: center;
     text-decoration: none;
