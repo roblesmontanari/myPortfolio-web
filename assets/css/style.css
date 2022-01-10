@@ -29,7 +29,6 @@ html {
 
 body {
     background-image: url("../img/Background-form.png");
-    background-color: var(--white);
     background-position: center;
     background-repeat: no-repeat;
     background-size: initial;
@@ -43,7 +42,6 @@ body {
     padding: 210px;
 }
     
-
 .introduction {
     text-align: center;
     font-family: var(--migra);
@@ -79,7 +77,6 @@ body {
     border: none;
     border-radius: 10px;
     box-shadow: 0px 0px 15px rgba(22, 22, 22, 0.3);
-    color: var(--white);
     cursor: pointer;
     display: inline-block;
     font-family: var(--magnat);
@@ -87,5 +84,9 @@ body {
     margin: 25px 25px;
     padding: 11px 16px;
     text-align: center;
+}
+
+.buttonClass a {
+    color: var(--white);
     text-decoration: none;
 }
